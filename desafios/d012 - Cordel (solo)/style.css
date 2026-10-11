@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sriracha';
+}
+
+header {
+    background: black;
+    max-height: 288px;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Passion One';
+    font-size: 7vw;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+
+header h1 span {
+    font-size: 1.4em;
+    font-family: 'Passion One';
+}
+
+header h2, a {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.text-without-photo {
+    background-color: white;
+    font-size: 3.5vw;
+    padding: 80px 20px;
+}
+
+.text-with-photo {
+    font-size: 3.5vw;
+    padding: 80px 20px;
+    color: white;   
+}
+
+.box-photo {
+    margin: 0 -20px;
+    height: 100%;
+}
+
+#sunflower {
+    background: black url(img/backgrounds/girassol.webp) center center / cover fixed;
+}
+
+#letters {
+    background: black url(img/backgrounds/cartas.webp) center center / cover fixed;
+}
+
+.box-photo p {
+    padding: 2px;
+    margin: 0 20px;
+}
+
+.box-text {
+    padding: 50px 20px;
+}
+
+.box-text p {
+    background-color: rgba(0, 0, 0, 0.433);
+    width: 42vw;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+footer a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
